@@ -1,0 +1,78 @@
+
+ 
+ 
+go da
+sw
+tcfe
+ 
+def-sys fe c mn si al p
+rej ph *
+ 
+ 
+rest-p fcc bcc liq cem
+ 
+ 
+get
+goto -3
+
+set-con w(c)=0.2e-2 w(mn)=1.5e-2 w(si)=1.0e-2 w(al)=0.5e-2 w(p)=0.006e-2
+set-con t=1196
+s-c n=1
+s-c p=101325
+
+
+c-e
+c-e
+c-e
+c-e
+c-e
+c-e
+ 
+s-a-v 1
+w(c)
+0
+2e-2
+5E-04
+ 
+ 
+s-a-v 2
+?
+T
+200
+1300
+5
+
+ 
+ 
+ 
+map
+
+
+
+pos
+s-d-a  x
+?
+?
+w-p(c)
+c
+ 
+ 
+s-d-a y
+?
+T-C
+ 
+ 
+set-lab b
+
+
+s-s-s
+x
+n
+0
+2
+
+plot
+SCREEN
+ 
+ 
+ 
